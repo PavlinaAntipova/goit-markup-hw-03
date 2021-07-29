@@ -61,6 +61,13 @@ ul {
   color: var(--title-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 /* Common style */
 
 .container {
@@ -85,7 +92,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19em;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -180,6 +187,7 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88em;
+  letter-spacing: 0.06em;
 }
 
 /* Features section */
